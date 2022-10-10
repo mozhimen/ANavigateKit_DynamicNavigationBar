@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://www.jitpack.io' }
+    }
+}
+rootProject.name = "GuideKit_DynamicNavigationBar"
+include ':app'
+include ':dynavbar'
+include ':guidek_annor'
+include ':guidek_compiler'
